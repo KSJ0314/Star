@@ -42,7 +42,7 @@
 	</form>
 	<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
 	<script type="text/javascript">
-		window.Kakao.init('5e6b74ea4529faab016309dd56092033');
+		window.Kakao.init('API KEY');
 		function kakaoLogin(){
 			window.Kakao.Auth.login({
 				scope:'profile_nickname, profile_image, account_email',
