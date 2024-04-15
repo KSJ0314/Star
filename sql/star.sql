@@ -1,5 +1,4 @@
 create DATABASE star;
-drop DATABASE star;
 
 create table member(
     id varchar(50) not null primary key,
