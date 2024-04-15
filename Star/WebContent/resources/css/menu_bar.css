@@ -1,0 +1,218 @@
+button{
+	border: none;
+}
+#slide1 {
+  position:absolute;
+  z-index: 10;
+  width: 80vw;
+  height: 100vh;
+  left: -80vw;
+  top:0;
+  bottom:0;
+  transition: left 0.3s ease-in-out;
+  background: url(https://images.unsplash.com/photo-1537147347432-676815edd56c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA3fHwlRUMlOUElQjAlRUMlQTMlQkN8ZW58MHx8MHx8fDA%3D);
+  border-right: 1px solid black;
+}
+.slide1_menu {
+  display: flex;
+  justify-content: space-between;
+}
+.slide1_top {
+  /* border-top: 1px solid rgba(245, 245, 245, 0.425); */
+  width: 100%;
+  height: 20%;
+}
+.slide1_bottom {
+  /* border-top: 1px solid  rgba(245, 245, 245, 0.425); */
+  height: 50%;
+  padding: 1%;
+}
+#slide1_background {
+  position: absolute;
+  display: none;
+  z-index: 8; 
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(2px);
+}
+#menu_profile {
+    border-radius: 10px;
+    color: white;
+    border: 2px solid white;
+    text-shadow: -1px 0px black, 0px 1px black, 1px 0px black, 0px -1px black;
+}
+#menu_profile #img{
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+#head_menu {
+  position: relative;
+  /*  border: 1px dotted black;  확인용 */
+}
+#menu_bar * {
+  color: white;
+}
+#menu_bar {
+  /* border: 1px dotted red;  확인용 */
+  display: flex;
+  font-weight: bold;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color:rgba(174, 174, 180, 0.158); */
+  font-size: 2vh;
+  height: 7vh;
+}
+
+#menu_btn {
+  padding: 2px 7px;
+  background-color: transparent;
+  font-size: 2vh;
+  /* border: 1px solid red; */
+}
+#login_btn {
+  background-color: transparent;
+  padding: 2px 7px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* small 보기에서 상단 카테고리 div */
+#all_mini {
+  height: 58%;
+  max-width: 68%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: scroll;
+  /* 스크롤 숨기기*/
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+#all_mini::-webkit-scrollbar {
+  display: none; /* 크롬,사파리,오페라,엣지 - 스크롤 숨기기 */
+}
+#all_mini > div {
+  display: flex;
+  margin-right: 5%;
+}
+.pull-left {
+  width: 10%;
+  height: 56.2%; 
+  /* 36 x 29.11*/
+}
+.pull-right {
+  width: 10%;
+  height: 56.2%; 
+  /* 36 x 29.11*/
+}
+#select_cate i{
+	color: #1d69ed;
+}
+
+/* 글작성 버튼 */
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#write_btn{
+	font-size: 2vh;
+	color: white;
+	border: 2px solid white;
+	border-radius: 5px;
+	font-weight: bold;
+	background-color: transparent;
+	width: 90%;
+	height: 5%;
+	position: absolute;
+    bottom: 2%;
+    left: 5%;
+}
+
+/* 랭킹 */
+.outline{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.outline *{
+	font-size: 1.5vh;
+}
+.rank_top{
+  width: 80%;
+  height: 40%;
+  display: flex;
+  position: relative;
+}
+.rank_bottom {
+  width: 80%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.b1 {
+  display: flex;
+  border-bottom: 1px solid gray;
+}
+.b2 {
+  display: flex;
+  align-items: center;
+}
+#rankNum {
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+#rankNum > img {
+  height: 100%;
+}
+.rank_in{
+  width: 33.33%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.dbc {
+  /* background-color: rgba(245, 245, 244, 0.731);  */
+  /* background-image: url("/Star/WebContent/resources/img/S.jpg"); */
+  background:url(https://images.unsplash.com/photo-1618593422919-6652eb784310?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  width: 100%;
+  height: 100%;
+}
+.mdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  /* border: 1px solid white; */
+}
+.level {
+  font-size: 1.5vh;
+}
+.mdiv > img {
+  height: 90%;
+}
+
+.rank_dais1, .rank_dais3{
+	position: relative;
+  left: 33%;
+}
+.rank_dais2{
+	position: absolute;
+}
