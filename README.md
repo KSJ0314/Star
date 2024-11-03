@@ -1,4 +1,4 @@
-<p align="center"><img src="https://velog.velcdn.com/images/ksj0314/post/902a42e7-6044-4bcb-bb48-c0b6e3533361/image.png" /></p>
+![](https://velog.velcdn.com/images/ksj0314/post/a4443ae9-6acb-4703-97fd-c35eb96ab592/image.png)
 
 ## 📗 프로젝트 개요
 
